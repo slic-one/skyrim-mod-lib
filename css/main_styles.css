@@ -1,0 +1,44 @@
+body {
+    background-image: url(http://cs7011.vk.me/v7011468/21fe0/UVmcuvb5neM.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #040404;
+    color: #aaaaaa;
+}
+
+/* navbar */
+img.link {
+    height: 25px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+img.logo {
+    height: 70px;
+    width: auto;
+}
+
+.navbar-inverse {
+    background: rgb(200, 200, 200);
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav > li > a {
+    transition: all 0.3s ease-in-out;
+}
+
+/*no color changes on links*/
+a {
+    text-decoration: none;
+    color: inherit;
+    user-select: none;
+}
+
+/*mod image stretch*/
+img.item {
+    padding: 0;
+    width: 300px;
+    height: 190px;
+}

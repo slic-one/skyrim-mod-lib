@@ -1,0 +1,42 @@
+body {
+    background: url(http://payload.cargocollective.com/1/0/633/138239/over-under_yale-wolf_nothing_2_u_1000.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20%;
+}
+
+li {
+    color: #d4e9e7;
+    font-family: Lombardic, Consolas, serif;
+    font-size: 2em;
+    text-shadow:5px 3px 4px #000000;
+}
+
+li.number {
+    font-size: 3.5em;
+}
+
+li.return {
+    padding-top: 50px;
+}
+
+a {
+    font-family: Lombardic, Consolas, serif;
+    text-shadow:5px 3px 4px #000000;
+    color: #8DADB8;
+    text-decoration: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #40CFFF;
+}
