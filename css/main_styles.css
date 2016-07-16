@@ -1,13 +1,23 @@
 body {
-    background-image: url(http://cs7011.vk.me/v7011468/21fe0/UVmcuvb5neM.jpg);
-    background-size: contain;
-    background-position: top;
+    background-image: url(https://staticdelivery.nexusmods.com/images/110/1413381-1361184036.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #040404;
     color: #aaaaaa;
 }
 
 /* navbar */
+
+img.logo {
+    height: 120px;
+    width: auto;
+    padding: 0 15px 10px 15px;
+    margin: 0;
+    background: #222;
+    border-radius: 10px;
+}
+
 img.link {
     height: 25px;
     width: auto;
@@ -21,12 +31,20 @@ img.logo {
 }
 
 .navbar-inverse {
-    background: rgb(200, 200, 200);
     transition: all 0.5s ease-in-out;
+    font-size: 1.3em;
 }
 
 .navbar-nav > li > a {
     transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    padding: 10px 0 0 0;
+}
+
+.dropdown-menu {
+    background: #090909;
 }
 
 /*no color changes on links*/
@@ -41,4 +59,40 @@ img.item {
     padding: 0;
     width: 300px;
     height: 190px;
+}
+
+.carousel {
+    width: 80%;
+    height: 20%;
+    max-width: 1300px;
+    margin: 5% auto;
+}
+.carousel img {
+    width:auto;
+    height: auto;
+}
+.carousel-caption {
+    font-family: cursive;
+    font-size: 1.5em;
+    letter-spacing: 1.1px;
+    color: rgb(220, 220, 220);
+}
+
+a.thumbnail {
+    background: rgba(12, 12, 12, 0.7);
+    border: solid rgba(12, 12, 12, 0.8) 1px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: cursive;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+}
+a.thumbnail img {
+    /*height: 130px;
+    width: 225px;*/
+}
+a.thumbnail:hover {
+    background: rgba(10, 10, 10, 0.9);
+    border-color: black;
 }

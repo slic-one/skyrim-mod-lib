@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-navbar-inverse">
+    <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -21,94 +21,66 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-book"></span> Slic's Skyrim Mod Library</a>
+                <a class="navbar-brand" href="#"><img class="logo" src="http://psnprofiles.com/lib/img/games/24de69/trophies/70L19c084.png"></a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://www.nexusmods.com/skyrim/?"><img class="link" src="images/nexusmods.png"></a></li>
-                <li><a href="https://steamcommunity.com/app/72850/workshop"><img class="link" src="images/steam_logo.png"></a></li>
-            </ul>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Musthave</a></li>
-                    <li><a href="404.html">Gameplay</a></li>
-                    <li><a href="404.html">Armory</a></li>
+                    <li><a href="musthave.html">Musthave</a></li>
+                    <li><a href="gameplay.html">Gameplay</a></li>
+                    <li><a href="armory.html">Armory</a></li>
                     <li><a href="404.html">Other</a></li>
-                    <li><a href="404.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mod Sources<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.nexusmods.com/skyrim/?"><img class="link" src="images/nexusmods.png"></a></li>
+                            <li><a href="https://steamcommunity.com/app/72850/workshop"><img class="link" src="images/steam_logo.png"></a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <table id="content">
-        <tr>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/27043/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/27043-0-1457222753.jpg" class="item" />                    ELFX
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="musthave.html">
+                    <img src="images/slider_musthave.jpg" alt="musthave">
                 </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/3863/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/3863-0-1436879491.png" class="item" />                    SkyUI
+                <div class="carousel-caption">"Musthave" Mods</div>
+            </div>
+            <div class="item">
+                <a href="gameplay.html">
+                    <img src="images/slider_gameplay.jpg" alt="gameplay">
                 </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/9557/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/9557-1-1401347037.jpg" class="item" />                    Alternate Start
+                <div class="carousel-caption">Gameplay Changes</div>
+            </div>
+            <div class="item">
+                <a href="armory.html">
+                    <img src="images/slider_armory.jpg" alt="armory">
                 </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/69033/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/69033-0-1440557501.jpg" class="item" />                    Archery Overhaul
-                </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/76747/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/76747-0-1467370687.jpg" class="item" />                    Bug Fixes
-                </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/31506/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/31506-1-1360638876.png" class="item" />                    Silent Hero
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/20923/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/20923-0-1450795719.jpg" class="item" />                    TK Dodge
-                </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/10906/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/10906-1-1339581720.png" class="item" />                    Dance of Death
-                </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/66612/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/66612-0-1433478876.jpg" class="item" />                    Immersive Music
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/746/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/746-1-1328819211.jpg" class="item" />                    No NPC Greetings
-                </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/38148/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/38148-1-1373416240.jpg" class="item" />                    Melee Range Fix
-                </a>
-            </td>
-            <td class="item">
-                <a href="http://www.nexusmods.com/skyrim/mods/62856/?" target="_blank">
-                    <img src="https://staticdelivery.nexusmods.com/mods/110/images/62856-1-1424336462.jpg" class="item" />                    Action Combat
-                </a>
-            </td>
-        </tr>
-    </table>
+                <div class="carousel-caption">Weapons and Armor</div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
